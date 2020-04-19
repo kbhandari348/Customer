@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_view_deign">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textViewNameD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="5dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textViewOrganiserD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Organiser"
+                android:paddingLeft="5dp"
+                android:textSize="18sp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/Organiser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="18sp"
+                android:text="Organised By :" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.learning.customer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisteredEventsActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".EventRegistration"
+            android:launchMode = "singleInstance"/>
+        <activity android:name=".EventsAdapter"
+            android:launchMode = "singleInstance"/>
+        <activity android:name=".Registration"
+            android:launchMode = "singleInstance"/>
+        <activity android:name=".EventDetails"
+            android:launchMode = "singleTop" />
+        <activity android:name=".Login"
+            android:launchMode = "singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayEvents" android:launchMode = "singleInstance"/>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_Ls5G93gnQXeVCo" />
+    </application>
+</manifest>

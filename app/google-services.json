@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "666755915950",
+    "firebase_url": "https://fir-authcrud.firebaseio.com",
+    "project_id": "fir-authcrud",
+    "storage_bucket": "fir-authcrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666755915950:android:a600925841d29d85798d3f",
+        "android_client_info": {
+          "package_name": "com.learning.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdG9o6pbUdN0LqL7RssJTZ9Kupq6cZzxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666755915950:android:9c300fe1093940da798d3f",
+        "android_client_info": {
+          "package_name": "com.learning.eventadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdG9o6pbUdN0LqL7RssJTZ9Kupq6cZzxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666755915950:android:e1844b79a4acd020798d3f",
+        "android_client_info": {
+          "package_name": "com.learning.superadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdG9o6pbUdN0LqL7RssJTZ9Kupq6cZzxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666755915950-9vlta0lpl2jutlrutkrnesk3en40ga12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
